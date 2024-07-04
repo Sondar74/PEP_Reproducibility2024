@@ -65,7 +65,7 @@ described in the `README.md` file therein.
 
 ## Authors
 
-- Gabriel Barrios (TODO: affiliation)
+- Gabriel Barrios (Universidad de San Carlos de Guatemala)
 - [David I. Ketcheson](https://www.davidketcheson.info) (King Abdullah University of Science and Technology)
 - [Hendrik Ranocha](https://ranocha.de) (Johannes Gutenberg University Mainz, Germany)
 
