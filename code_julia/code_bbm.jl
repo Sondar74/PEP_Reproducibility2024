@@ -42,7 +42,7 @@ function bbm_setup(nnodes)
   ImD2 = I - D2
   D1_invImD2 = D1 / (I - D2)
 
-  tspan = (0.0, 10 * (xmax() - xmin()) / c())
+  tspan = (0.0, 40 * (xmax() - xmin()) / c())
   x = grid(D1)
   u0 = usol.(tspan[1], x)
 
@@ -97,7 +97,7 @@ function bbm_solver(; rhs, alg, nnodes = 2^6, dt = 0.25)
       k1 = rhs(u, params, t)
       y2 = @. u + (dt / 2) * k1
       k2 = rhs(y2, params, t + dt / 2)
-      @. unew = u + (dt / 2) * (k1 + k2)
+      @. unew = u + dt * k2
     elseif alg === :ep5
       k1 = rhs(u, params, t)
       y2 = @. u + (1/10) * dt * k1
@@ -142,9 +142,9 @@ end
 
 function generate_arrays(pep = false)
   if pep == true
-    res = bbm_solver(; nnodes = 2^6, dt = 2.0e-3, rhs = bbm_rhs_cubic, alg = :ep5)
+    res = bbm_solver(; nnodes = 2^6, dt = 0.2, rhs = bbm_rhs_cubic, alg = :ep5)
   else
-    res = bbm_solver(; nnodes = 2^6, dt = 1.0e-3, rhs = bbm_rhs_cubic, alg = :midpoint)
+    res = bbm_solver(; nnodes = 2^6, dt = 0.1, rhs = bbm_rhs_cubic, alg = :midpoint)
   end
   # Save the error and time arrays only.
   error = res.error_l2
