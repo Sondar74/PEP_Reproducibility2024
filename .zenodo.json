@@ -1,0 +1,22 @@
+{
+    "license": "MIT",
+    "title": "Reproducibility repository for Pseudo-Energy-Preserving Explicit Runge-Kutta Methods",
+    "upload_type": "software",
+    "creators": [
+        {
+            "affiliation": "Universidad de San Carlos de Guatemala",
+            "name": "Barrios, Gabriel"
+        },
+        {
+            "affiliation": "King Abdullah University of Science and Technology (KAUST)",
+            "name": "Ketcheson, David I.",
+            "orcid": "0000-0002-1212-126X"
+        },
+        {
+            "affiliation": "Institute of Mathematics, Johannes Gutenberg University Mainz, Germany",
+            "name": "Ranocha, Hendrik",
+            "orcid": "0000-0002-3456-2277"
+        }
+    ],
+    "access_right": "open"
+}
