@@ -48,7 +48,7 @@ of the same order, for moderately long-time simulations.
 To reproduce the numerical experiments presented in this article, you need
 to install Python and [Julia](https://julialang.org/).
 The numerical experiments presented in this article were performed using
-Python vTODO and Julia v1.10.4.
+Python v3.10.9  and Julia v1.10.4.
 
 First, you need to download this repository, e.g., by cloning it with `git`
 or by downloading an archive via the GitHub interface.
