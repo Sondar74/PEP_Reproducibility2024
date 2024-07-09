@@ -1,7 +1,7 @@
 # Pseudo-Energy-Preserving Explicit Runge-Kutta Methods
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
-[![DOI](https://zenodo.org/badge/DOI/TODO.svg)](https://zenodo.org/doi/TODO)
+[![DOI](https://zenodo.org/badge/DOI/TODO.svg)](https://zenodo.org/doi/10.5281/zenodo.12699752)
 
 This repository contains information and code to reproduce the results presented
 in the article
@@ -25,7 +25,7 @@ use the implementations provided here, please **also** cite this repository as
   author={Barrios, Gabriel and Ketcheson, David I and Ranocha, Hendrik},
   year={2024},
   howpublished={\url{https://github.com/Sondar74/PEP_Reproducibility2024}},
-  doi={TODO}
+  doi={10.5281/zenodo.12699752}
 }
 ```
 
