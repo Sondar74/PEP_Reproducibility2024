@@ -8,9 +8,9 @@ in the article
 ```bibtex
 @online{barrios2024pseudo,
   title={Pseudo-Energy-Preserving Explicit {R}unge-{K}utta Methods},
-  author={Barrios, Gabriel and Ketcheson, David I and Ranocha, Hendrik},
+  author={Barrios de Leon, Gabriel and Ketcheson, David I and Ranocha, Hendrik},
   year={2024},
-  eprint={TODO},
+  eprint={2407.15365},
   eprinttype={arxiv},
   eprintclass={math.NA}
 }
@@ -22,7 +22,7 @@ use the implementations provided here, please **also** cite this repository as
 @misc{barrios2024pseudoRepro,
   title={Reproducibility repository for
          "{P}seudo-Energy-Preserving Explicit {R}unge-{K}utta Methods"},
-  author={Barrios, Gabriel and Ketcheson, David I and Ranocha, Hendrik},
+  author={Barrios de Leon, Gabriel and Ketcheson, David I and Ranocha, Hendrik},
   year={2024},
   howpublished={\url{https://github.com/Sondar74/PEP_Reproducibility2024}},
   doi={10.5281/zenodo.12699752}
@@ -65,7 +65,7 @@ described in the `README.md` file therein.
 
 ## Authors
 
-- Gabriel Barrios (Universidad de San Carlos de Guatemala)
+- Gabriel Barrios de Léon (Universidad de San Carlos de Guatemala)
 - [David I. Ketcheson](https://www.davidketcheson.info) (King Abdullah University of Science and Technology)
 - [Hendrik Ranocha](https://ranocha.de) (Johannes Gutenberg University Mainz, Germany)
 
