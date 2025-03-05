@@ -6,10 +6,15 @@
 This repository contains information and code to reproduce the results presented
 in the article
 ```bibtex
-@online{barrios2024pseudo,
+@article{barrios2025pseudo,
   title={Pseudo-Energy-Preserving Explicit {R}unge-{K}utta Methods},
   author={Barrios de Leon, Gabriel and Ketcheson, David I and Ranocha, Hendrik},
-  year={2024},
+  journal={ESAIM: Mathematical Modelling and Numerical Analysis (ESAIM: M2AN)},
+  volume={59},
+  number={2},
+  pages={729--748},
+  year={2025},
+  month={03},
   eprint={2407.15365},
   eprinttype={arxiv},
   eprintclass={math.NA}
